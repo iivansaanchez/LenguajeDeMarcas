@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<form action="https://iesjacaranda.es/lmsgi/resultado.php" method="post">
+    <fieldset>
+        <legend>Rellenar
+        </legend>
+        <p>Inglés: <input type="checkbox" name="ingles"/><p>
+        <p>Francés: <input type="checkbox" name="frances"/></p>
+        <p>Alemán: <input type="checkbox" name="aleman"/></p>
+        </br>
+        <select name="menu">
+            <option>USB</option>
+            <option value="2">Sí</option>
+            <option value="3">No</option>
+        </select>
+        </br>
+        <p>Nombre: <input type="text" name="nombre"></p>
+        <p>Apellidos: <input type="text" name="apellido"></p>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Indique sus preferencias por favor
+        </legend>
+        <select name="menu[]" size="2" multiple>
+            <option value="1">Hombre</option>
+            <option value="2">Mujer</option>
+        </select>
+        <p>Hombre <input type="checkbox" name="hombre"/><p>
+        <p>Mujer: <input type="checkbox" name="mujer"/></p>
+        <p>Elija una fecha: <input type="date" name="fecha"></p>
+    </fieldset>
+
+    <p><input type="submit" value="Enviar"><input type="reset" value="Borrar"></p>
+</form>
+</html>

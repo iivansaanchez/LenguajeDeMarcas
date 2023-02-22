@@ -1,0 +1,28 @@
+{
+    "titulo":"XML explicado a los niños",
+    "parrafos":
+    [
+        {
+            "parrafo":"El define como crear lenguajes de marcas"{
+                "abreviatura":"XML"
+            },
+            "parrafo":"Las marcas se añaden a un documento de texto para añadir información",
+            "parrafo":{
+                "https":"www.example.org"
+            }
+        }   
+    ]  
+}
+
+
+
+<texto>
+    <titulo>XML explicado a los niños</titulo>
+    <parrafo1>El define cómo crear lenguajes de marcas
+        <abreviatura>XML</abreviatura>
+    </parrafo1>
+    <parrafo2>Las marcas se añaden a un documento de texto para añadir información</parrafo2>
+    <parrafo3>
+        <http>www.example.org</http>
+    </parrafo3>
+</texto>

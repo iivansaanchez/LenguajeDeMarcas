@@ -1,0 +1,65 @@
+{
+    "peliculas":[{
+        "pelicula":{
+            "titulo":"Avatar: The Way of Water",
+            "Espaniola":False,
+            "tituloOriginal": "Avatar: el sentido del agua",
+            "duracion":"190minutos",
+            "año":2022,
+            "genero":"Ciencia Ficción",
+            "clasificacionEdad":"+12",
+            "Director":"James Cameron",
+            "Reparto":[
+                {
+                    "nombre":"Sam",
+                    "apellido":"Worthington",
+                    "Espaniol":False
+                },
+                {
+                    "nombre":"Zoe",
+                    "apellido":"Saldana",
+                    "Espaniol":False
+                },
+                {
+                    "nombre":"Sigourney",
+                    "apellido":"Weaver",
+                    "Espaniol":False
+                },
+                {
+                    "nombre":"Kate",
+                    "apellido":"Winslet",
+                    "Espaniol":False
+                }
+            ],
+            "web":"Avatar.com",
+            "cine":"Los Arcos: 17:15, 17:30, 18:00, 18:15 Yelmo: 17:45, 18:45, 19:30, 20:30, 21:35, 22:35, 23:20"
+        },
+        "pelicula":{
+            "titulo":"El oro de Moscow",
+            "tituloOriginal":Null,
+            "genero":"Comedia",
+            "Duracion":"108minutos",
+            "anioCreacion":2002,
+            "clasificacionEdad":"Sin clasificar",
+            "Director":"Jesus Bonilla",
+            "Reparto":[
+                {
+                    "nombre":"Jesus",
+                    "apellido":"Bonilla",
+                    "Espaniol":True
+                },
+                {
+                    "nombre":"Santigo",
+                    "apellido":"Segura",
+                    "Espaniol":True
+                },
+                {
+                    "nombre":"Alfredo",
+                    "apellido":"Landa",
+                    "Espaniol":True
+                }],
+            "web":Null,
+            "cines":Null
+        }
+        }] 
+}

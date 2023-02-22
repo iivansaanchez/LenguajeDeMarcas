@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<form action="https://iesjacaranda.es/lmsgi/resultado.php" method="post">
+    <fieldset>
+        <legend>
+            Acerca de tí
+        </legend>
+        <p>Lenguajes que conoces: </p>
+        <p>Java: <input type="checkbox" name="java"/><p>
+        <p>Python: <input type="checkbox" name="python"/></p>
+        <p>Angular: <input type="checkbox" name="angular"/></p>
+        <p>JavaScript: <input type="checkbox" name="JavaScript"/></p>
+        <p>C++: <input type="checkbox" name="c++"/></p>
+        <p>PHP: <input type="checkbox" name="php"/></p>
+        <p>¿Tienes como minimo un B1 de inglés?: </p>
+        <select name="idioma">
+            <option>Inglés</option>
+            <option value="2">Sí</option>
+            <option value="3">No</option>
+        </select>
+        <p>Indica cual es tu sexo: </p>
+        <select name="sexo">
+            <option>Sexo</option>
+            <option value="2">Hombre</option>
+            <option value="3">Mujer</option>
+            <option value="3">No binario</option>
+        </select>
+        <p>Hablamos de tí, queremos conocerte.</p>
+        <textarea name="texto" rows="4" cols="20"></textarea>
+    </fieldset>
+
+    <p><input type="submit" value="Enviar"><input type="reset" value="Borrar"></p>
+</form>
+</html>

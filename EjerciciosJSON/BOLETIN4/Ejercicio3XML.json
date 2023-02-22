@@ -1,0 +1,32 @@
+
+{
+    "remitente":[
+        {
+            "destinatario":"Ivan",
+            "email":"juanymedio@gmail.com"
+        }
+    ],
+    "destinatario": [
+        {
+            "nombre":"Fran Smith",
+            "email":"pacoyyosomoslosmejores@gmail.com"
+        }
+    ],
+    
+
+
+}
+    
+
+<bandeja_entrada>
+    <remitente>
+        <nombre>Ivan Perez</nombre>
+        <email>juanymedio@gmail.com</email>
+    </remitente>
+    <destinatario>
+        <nombre>Fran Smith</nombre>
+        <email>pacoyyosemolosmejores@gmail.com</email>
+    </destinatario>
+    <asunto>Operacion </asunto>
+    <cuerpo>Buenas Fran, espero que estes bien</cuerpo>
+</bandeja_entrada>

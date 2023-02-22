@@ -1,0 +1,9 @@
+{
+    "pedido": [
+        {
+            "articulosPedido":"Nike Air Force 1",
+            "direccionEntrega":"Desengaño, 21",
+            "fechaEntrega":"13/02/1998"
+        }
+    ] 
+}
